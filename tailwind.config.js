@@ -8,6 +8,10 @@ module.exports = {
       },
       colors: {
         primary: "#5f6fff",
+        pcolor: "#4B5563",
+      },
+      gridTemplateColumns: {
+        auto: `repeat(auto-fill,minmax(200px,1fr))`,
       },
     },
   },
