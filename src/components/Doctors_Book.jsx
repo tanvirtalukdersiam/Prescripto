@@ -1,10 +1,11 @@
-import React from "react";
-import { doctors } from "../assets/assets";
+import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import { Appcontext } from "../context/Appcontext";
 const Doctors_Book = () => {
   const navigate = useNavigate();
+  const { doctors } = useContext(Appcontext);
   return (
-    <div className="flex flex-col items-center gap-4 my-16 text-gray-900 md:mx-10">
+    <div className="flex flex-col items-center gap-4 my-14 text-gray-900 md:mx-10">
       <h2 className="font-medium text-[40px] text-center">
         {" "}
         Top Doctors to Book
@@ -30,7 +31,13 @@ const Doctors_Book = () => {
           </div>
         ))}
       </div>
-      <button className="bg-blue-100 text-gray-600 px-12 py-3 rounded-full  mt-10 hover:scale-110 transition-all duration-400">
+      <button
+        onClick={() => {
+          navigate("/doctors");
+          scrollTo(0, 0);
+        }}
+        className="bg-blue-100 text-gray-600 px-12 py-3 rounded-full  mt-10 hover:scale-110 transition-all duration-400"
+      >
         More
       </button>
     </div>
