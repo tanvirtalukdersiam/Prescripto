@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="md:mx-10">
@@ -18,10 +19,21 @@ const Footer = () => {
         <div>
           <p className="text-[#4B5563] font-semibold mb-4 text-lg">COMPANY</p>
           <ul className="flex flex-col gap-1.5 text-pcolor">
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact us</li>
-            <li>Privacy policy</li>
+            <li>
+              <Link to={"/"}>Home</Link>
+            </li>
+            <li>
+              {" "}
+              <Link to={"/about"}> About us</Link>
+            </li>
+            <li>
+              {" "}
+              <Link to={"/contact"}> Contact us</Link>
+            </li>
+            <li>
+              {" "}
+              <Link to={"/policy"}>Privacy policy</Link>
+            </li>
           </ul>
         </div>
         {/* right sight */}
@@ -30,8 +42,8 @@ const Footer = () => {
             GET IN TOUCH
           </p>
           <ul className="flex flex-col gap-1.5 text-pcolor">
-            <li>+1-212-456-7890</li>
-            <li>greatstackdev@gmail.com</li>
+            <li>01743860970</li>
+            <li>tanvir620032gmail.com</li>
           </ul>
         </div>
       </div>
