@@ -43,7 +43,7 @@ const All_Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Gynecologist")
             }
-            className={`w-[94vh] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${
+            className={`w-[90vh] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${
               speciality == "Gynecologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
@@ -55,7 +55,7 @@ const All_Doctors = () => {
                 ? navigate("/doctors")
                 : navigate("/doctors/Dermatologist")
             }
-            className={`w-[94vh] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer  ${
+            className={`w-[90vh] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer  ${
               speciality == "Dermatologist" ? "bg-indigo-100 text-black" : ""
             }`}
           >
