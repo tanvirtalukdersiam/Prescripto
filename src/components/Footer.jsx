@@ -42,8 +42,8 @@ const Footer = () => {
             GET IN TOUCH
           </p>
           <ul className="flex flex-col gap-1.5 text-pcolor">
-            <li>01743860970</li>
-            <li>tanvir620032gmail.com</li>
+            <li>01743904321</li>
+            <li>estore@gmail.com</li>
           </ul>
         </div>
       </div>
@@ -51,7 +51,7 @@ const Footer = () => {
       <div>
         <hr className="text-pcolor border border-1" />
         <p className="text-center text-sm font-normal text-pcolor py-4 ">
-          Copyright © 2024 Tanvir Siam - All Right Reserved.
+          Copyright © 2024 Mujahid - All Right Reserved.
         </p>
       </div>
     </div>
