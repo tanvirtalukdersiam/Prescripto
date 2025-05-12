@@ -7,12 +7,14 @@ const Footer = () => {
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-14 ">
         {/* left sight */}
         <div>
-          <img className="w-40 mb-3.5" src={logo} alt="" srcset="" />
+          <h5 className="text-black font-semibold text-[32px] cursor-pointer">
+            Docure <span className="text-primary">+</span>
+          </h5>
           <p className="w-full md:w-2/3 leading-6 text-pcolor">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Docure connects you with trusted doctors for secure, easy online
+            appointments. Access expert medical care, book visits, and manage
+            health records all in one place. Your health, our priority at
+            Docure.
           </p>
         </div>
         {/* middle sight */}
@@ -42,8 +44,8 @@ const Footer = () => {
             GET IN TOUCH
           </p>
           <ul className="flex flex-col gap-1.5 text-pcolor">
-            <li>01743904321</li>
-            <li>estore@gmail.com</li>
+            <li>+1 (416) 123-4567</li>
+            <li>docure@gmail.com</li>
           </ul>
         </div>
       </div>
@@ -51,7 +53,7 @@ const Footer = () => {
       <div>
         <hr className="text-pcolor border border-1" />
         <p className="text-center text-sm font-normal text-pcolor py-4 ">
-          Copyright © 2024 Mujahid - All Right Reserved.
+          Copyright © 2025 Mujahid - All Right Reserved.
         </p>
       </div>
     </div>

@@ -8,10 +8,12 @@ const Doctors_Book = () => {
     <div className="flex flex-col items-center gap-4 my-14 text-gray-900 md:mx-10">
       <h2 className="font-medium text-[40px] text-center">
         {" "}
-        Top Doctors to Book
+        Highly Rated Doctors Ready to Book
       </h2>
       <p className="font-normal  text-[18px] text-pcolor text-center">
-        Simply browse through our extensive list of trusted doctors.
+        Easily search through our trusted doctor directory to find qualified,
+        experienced <br className="hidden sm:block" /> healthcare professionals
+        who meet your specific needs.
       </p>
       <div className="w-full grid grid-cols-auto gap-4 pt-5 gap-y-6 md:px-0">
         {doctors.slice(0, 7).map((item, index) => (

@@ -16,25 +16,26 @@ const About = () => {
         />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-base text-gray-600">
           <p>
-            Welcome to Prescripto, your trusted partner in managing your
-            healthcare needs conveniently and efficiently. At Prescripto, we
-            understand the challenges individuals face when it comes to
-            scheduling doctor appointments and managing their health records.
+            Welcome to Docure your reliable partner in managing healthcare with
+            ease and confidence. At Docure, we simplify the way you book doctor
+            appointments and access health records. We understand the everyday
+            challenges of managing your well-being, and we’re here to make your
+            healthcare journey smoother, smarter, and more convenient all in one
+            secure platform.
           </p>
           <p>
-            Prescripto is committed to excellence in healthcare technology. We
-            continuously strive to enhance our platform, integrating the latest
-            advancements to improve user experience and deliver superior
-            service. Whether you're booking your first appointment or managing
-            ongoing care, Prescripto is here to support you every step of the
-            way.
+            At Docure, we’re all about making healthcare easier for you. We’re
+            always working to improve our platform with the latest technology so
+            you can book appointments, manage your health, and get the care you
+            need quickly and easily. Whether it’s your first visit or part of
+            ongoing care, Docure is here to help, every step of the way.
           </p>
           <p className="font-bold text-lg">Our Vision</p>
           <p>
-            Our vision at Prescripto is to create a seamless healthcare
-            experience for every user. We aim to bridge the gap between patients
-            and healthcare providers, making it easier for you to access the
-            care you need, when you need it.
+            At Docure, our vision is to make healthcare simple, connected, and
+            accessible for everyone. We’re committed to bridging the gap between
+            patients and healthcare providers, ensuring you get the care you
+            need whenever and wherever you need it.
           </p>
         </div>
       </div>
@@ -47,15 +48,14 @@ const About = () => {
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px]">
           <b className="text-[#1F2937] text-lg font-semibold">Efficiency:</b>
           <p className="text-[#454545] text-[17px]">
-            Streamlined appointment scheduling that fits into your busy
-            lifestyle.
+            Easy appointment booking that works with your busy schedule.
           </p>
         </div>
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px]">
           <b className="text-[#1F2937] text-lg font-semibold">Convenience:</b>
           <p className="text-[#454545] text-[17px]">
-            Access to a network of trusted healthcare professionals in your
-            area.
+            Connect with trusted healthcare professionals near you, ready to
+            provide the care you deserve.
           </p>
         </div>
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px]">
@@ -63,8 +63,8 @@ const About = () => {
             Personalization:
           </b>
           <p className="text-[#454545] text-[17px]">
-            Tailored recommendations and reminders to help you stay on top of
-            your health.
+            Personalized tips and reminders to help you keep track of your
+            health.
           </p>
         </div>
       </div>

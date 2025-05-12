@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="flex-1 py-8 sm:py-10 md:py-16 lg:py-24 lg:pl-5">
         <div className="text-xl sm:text-2xl md:text-3xl lg:text-5xl text-white font-semibold">
           <h4>Book Appointment</h4>
-          <h4 className="mt-3">With 100+ Trusted Doctors</h4>
+          <h4 className="mt-3">with 100+ Verified Healthcare Professionals</h4>
         </div>
         <button
           onClick={() => {

@@ -6,12 +6,12 @@ const Find_by_Speciality = () => {
     <div id="speciality" className="flex flex-col items-center gap-4 py-16">
       <h2 className="font-medium text-[40px] text-center">
         {" "}
-        Find_by_Speciality
+        Explore by Specialization
       </h2>
+
       <p className="font-normal sm:w-1/3 text-[18px] text-pcolor text-center">
-        Simply browse through our extensive list of trusted doctors, schedule{" "}
-        {/* <br className="hidden md:block" /> */}
-        your appointment hassle-free.
+        Easily browse our trusted doctor list and book your appointment in
+        minutes.
       </p>
       <div className="flex sm:justify-center gap-5 pt-8 w-full overflow-scroll">
         {SpecialtyData.map((item, index) => (
