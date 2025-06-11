@@ -22,10 +22,10 @@ const Contact = () => {
             Tel: (415) 555‑0132
           </p>
           <p className="text-lg text-[#4B5563] font-normal">
-            Email: greatstackdev@gmail.com
+            Email: rental@gmail.com
           </p>
           <p className="text-2xl text-[#4B5563] font-semibold uppercase">
-            Careers at PRESCRIPTO
+            Careers at rental
           </p>
           <p className="text-lg text-[#4B5563] font-normal">
             Learn more about our teams and job openings.
